@@ -8,7 +8,7 @@ package org.rhok;
     * City : city:string
     * County : county:string
     * Zip : postcode:string
-    * Latitude : lat:float - 
+    * Latitude : lat:float -
     * Longitude : long:float
     * Occupant: Owner or Renter (are you an owner?) : owner:boolean
     * Estimated Pre-Disaster FMV of STRUCTURE : estpredistfmv:integer
@@ -26,20 +26,20 @@ package org.rhok;
     * Contact Email : email:string
     * Total Uninsured Loss : uninsured_loss:integer
     * % of Total Uninsured Loss / FMV : (calculated)
-    * Picture, if available : string (url of upload site) 
- * 
+    * Picture, if available : string (url of upload site)
+ *
  */
 
 public class Entry {
-	public enum Occupant{
-		OWNER,
-		RENTER,
-	};
-	private String firstName;
-	private String middleName;
-	private String address1;
-	private String address2;
-	private String city;
-	private String zip;
-	private Occupant occupant;
+    public enum Occupant{
+        OWNER,
+        RENTER,
+    };
+    private String firstName;
+    private String middleName;
+    private String address1;
+    private String address2;
+    private String city;
+    private String zip;
+    private Occupant occupant;
 }
