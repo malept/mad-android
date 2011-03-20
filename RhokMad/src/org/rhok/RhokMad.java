@@ -170,6 +170,9 @@ public class RhokMad extends Activity
         } else if(view == prev) {
             flipper.showPrevious();
             currPage = (currPage - 1) % pageCount;
+            if (currPage < 0) {
+                currPage = pageCount - 1;
+            }
             super.setTitle(titles[currPage]);
         } else if (view == dateField) {
             showDialog(ID_DATEPICKER);
