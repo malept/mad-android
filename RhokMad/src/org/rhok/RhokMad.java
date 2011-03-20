@@ -50,7 +50,7 @@ public class RhokMad extends Activity
 	private int currPage;
 	
 	private static final String[] titles = {
-		"MadPub: Eneter Contact Info",
+		"MadPub: Enter Contact Info",
 		"MadPub: Damage Report"
 	};
 	
